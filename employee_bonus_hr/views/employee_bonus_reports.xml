@@ -5,8 +5,8 @@
             id="emp_bonus_report"
             model="employee.bonus"
             string="Print Employee Bonus" 
-            name="employee_bonus.bonus_report_id"
-            file="employee_bonus.bonus_report_id"
+            name="employee_bonus_hr.bonus_report_id"
+            file="employee_bonus_hr.bonus_report_id"
             report_type="qweb-pdf" />
 
         <template id="bonus_report_id">
