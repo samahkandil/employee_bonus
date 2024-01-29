@@ -2,7 +2,7 @@
 
 {
     'name': 'Employee Bonus Management',
-    'version': '14',
+    'version': '14.0',
     'license': 'LGPL-3',
     'category': 'Human Resources',
     'summary': 'This module allow you HR department to create employee bonuses and approvals.',
