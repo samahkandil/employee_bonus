@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+<!--        <record id="emp_001" model="hr.payroll.structure">-->
+<!--            <field name="code">Emp</field>-->
+<!--            <field name="name">Marketing Executive</field>-->
+<!--            <field name="company_id" ref="base.main_company"/>-->
+<!--            <field name="type_id" ref="structure_base"/>-->
+<!--        </record>-->
+
+        <!--Salary rule for bonus -->
+        <record id="hr_salary_rule_bonus_amounts" model="hr.salary.rule">
+            <field name="code">Bonus</field>
+            <field name="name">Bonus</field>
+            <field name="category_id" ref="hr_payroll.ALW"/>
+            <field name="condition_select">none</field>
+            <field name="amount_select">code</field>
+            <field name="amount_python_compute">result = contract.bonus_amount</field>
+            <field name="sequence" eval="11"/>
+            <field name="struct_id" >1</field>
+<!--            you can Put Any Id Or ref For your target salary Structure-->
+<!--            <field name="struct_id" ref="structure_002"/>-->
+
+        </record>
+
+
+    </data>
+</odoo>
