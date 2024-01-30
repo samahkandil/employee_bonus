@@ -51,14 +51,14 @@
                         <button string="Cancel" type="object" name="get_cancel" groups="hr.group_hr_user"
                                 states="draft"/>
                         <button string="Approve by Department" type="object" name="get_apprv_dept_manager"
-                                states="confirm" groups="employee_bonus.group_department_manager_for_bonus" class="oe_highlight"/>
+                                states="confirm" groups="employee_bonus_hr.group_department_manager_for_bonus" class="oe_highlight"/>
                         <button string="Approve by HR" type="object" name="get_apprv_hr_manager"
                                 states="approved_dept_manager" groups="hr.group_hr_user" class="oe_highlight"/>
                         <button string="Reject" type="object" name="get_reject"
-                                groups="hr.group_hr_user,employee_bonus.group_department_manager_for_bonus" states="confirm,approved_dept_manager"/>
-                        <button string="Reset to Draft" type="object" name="get_reset" groups="hr.group_hr_user,employee_bonus.group_department_manager_for_bonus"
+                                groups="hr.group_hr_user,employee_bonus_hr.group_department_manager_for_bonus" states="confirm,approved_dept_manager"/>
+                        <button string="Reset to Draft" type="object" name="get_reset" groups="hr.group_hr_user,employee_bonus_hr.group_department_manager_for_bonus"
                                 states="reject,cancel,approved_hr_manager" />
-                    <button string="ِAdd Bonus in Salary" type="object" name="add_bonus_salary" groups="hr.group_hr_manager,employee_bonus.group_department_manager_for_bonus"
+                    <button string="ِAdd Bonus in Salary" type="object" name="add_bonus_salary" groups="hr.group_hr_manager,employee_bonus_hr.group_department_manager_for_bonus"
                                 states="approved_hr_manager" />
                         <field name="state" widget="statusbar" statusbar_visible="draft,confirm,approved_dept_manager,approved_hr_manager"/>
                 </header>
