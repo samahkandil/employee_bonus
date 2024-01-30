@@ -5,7 +5,7 @@
     'version': '14.0',
     'license': 'LGPL-3',
     'category': 'Human Resources',
-    'summary': 'This module allow you HR department to create employee bonuses and approvals.',
+    'summary': 'This module allow you HR department to create employee bonuses and approvals and it reflect in Employee Payslip .',
     'description': """
 Employee Bonus Management
 Bonus
@@ -32,8 +32,6 @@ Commission
 sales commission
 sales bonus
 bonus to employee
-commission sales
-sale commission
             """,
     'support': 'samahqandeel22@gmail.com',
     'images': ['static/description/img1.jpg'],
@@ -45,10 +43,8 @@ sale commission
                  'portal',
                  'hr_payroll'
                  ],
-    #'live_test_url': 'https://youtu.be/tiIx0ZfqNPg',
-    'live_test_url': 'https://youtu.be/l68xXCgShA0',
     'data': [
-            # 'data/hr_payroll_data.xml',
+            'data/hr_payroll_data.xml',
              'security/security.xml',
              'security/ir.model.access.csv',
              'data/bonus_sequence.xml',
@@ -62,4 +58,3 @@ sale commission
     'application': False,
 }
 
-# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
