@@ -5,7 +5,7 @@
     'version': '15.0',
     'license': 'LGPL-3',
     'category': 'Human Resources',
-    'summary': 'This module allow you HR department to create employee bonuses and approvals.',
+    'summary': 'This module allow you HR department to create employee bonuses and approvals and added it in payslip.',
     'description': """
 Employee Bonus Management
 Bonus
