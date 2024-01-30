@@ -45,10 +45,8 @@ sale commission
                  'portal',
                  'hr_payroll'
                  ],
-    #'live_test_url': 'https://youtu.be/tiIx0ZfqNPg',
-    'live_test_url': 'https://youtu.be/l68xXCgShA0',
     'data': [
-            # 'data/hr_payroll_data.xml',
+            'data/hr_payroll_data.xml',
              'security/security.xml',
              'security/ir.model.access.csv',
              'data/bonus_sequence.xml',
@@ -62,4 +60,3 @@ sale commission
     'application': False,
 }
 
-# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
